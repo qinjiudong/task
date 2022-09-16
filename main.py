@@ -60,4 +60,4 @@ head = {
 
 data = f'userid=1111299851&last_sync_data_time=1597306380&device_type=0&last_deviceid=DA932FFFFE8816E7&data_json={data_json}'
 response = requests.post(url, data=data, headers=head).json()
-print(time.strftime("%c"), response, steps)
+print(time.strftime("%c"), response, steps,time.strftime("%H"))
