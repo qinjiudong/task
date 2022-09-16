@@ -6,3 +6,4 @@ response = requests.get(url).json()
 t = response['data']['t']
 
 print(t)
+print(123456)
