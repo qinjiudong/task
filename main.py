@@ -5,7 +5,7 @@ import time
 
 import requests
 
-step = int(time.strftime("%H")) * random.randint(833, 977)
+step = (8+int(time.strftime("%H"))) * random.randint(833, 977)
 steps = str(step)
 url1 = "https://api-user.huami.com/registrations/+8618001635565/tokens"
 headers = {
